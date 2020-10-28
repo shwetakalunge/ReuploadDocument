@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="eng">
+   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="index.html">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Armata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Reupload Documents</title>
+</head>
+
+<body>
+    <section class="main_class">
+        <header>Welcome to Docuverus</header>
+        <h4>Please upload your own documents. Any co-applicant document(s) will be uploaded separately by them</h4>
+        <div class="div_YellowNote">Note: This link will expire in 30 Days</div>
+        <div class="div_BorderFirst"></div>
+        <div class="div_BlueNote">This Application uses advanced computer vision technology. if you have proof of income documents on hand, uploading them here will help make the process of completing this application faster and easier. If you don’t have documents available-- or if you don’t have clear images of your documents-- you can provide these documents later. Just answer ”No” to the question(s) below and provide the relevant reaason.</div>
+
+        <!------------------------------Proof Of Identity-------------------------------------------------------------------------------------->
+
+        <div class="div_ProofOfidentity"><text>Proof Of ID</text>
+
+        </div>
+        <!----------------------------------------------------------------------------------------->
+
+        <section class="section_boxborder">
+            <div class="div_BasicInformation">
+                <text>Basic Information</text>
+                <span class="material-icons" style=color:white>delete</span>
+            </div>
+            <div class="div_FirstPara">
+                <text>Do you have proof of identity available to upload?</text>
+
+
+
+                <!--------------------------------------------------------------------------------------->
+                <div class="q-switch">
+                    <input type="checkbox" id="c1">
+                    <label for="c1">
+                        <span>Yes</span>
+                        <span>No</span>
+                    </label>
+                </div>
+
+                <div class="div_Images">
+                    <div class="col span-1-of-2 box_image1 ">
+                        <img src="images/IDProofImage1.png">
+
+                    </div>
+                    <div class="col span-1-of-2 box_image2 ">
+                        <img src="images/IDProofImagelast.png" class="ArrowDia">
+                    </div>
+                </div>
+                <!--<div class="div_rectangles">
+                 <img src="images/id_rectangle1.png" class="id_rectangle1">
+                </div>-->
+
+                <!------------------------------User Form 1st Row-------------------------------------------------------------->
+                <div class="div_MainFirst">
+
+                    <div class="row_box">
+
+                        <div class="col span-1-of-3 box ">
+                            <h6 class="Firstname">First Name</h6>
+                            <input class="firstname" type="text" id="first_name">
+                        </div>
+                        <div class="col span-1-of-3 box ">
+                            <h6 class="Middlename">Middle Name</h6>
+                            <input class="middlename" type="text" name="middle_name">
+                        </div>
+                        <div class="col span-1-of-3 box ">
+                            <h6 class="Lastname">Last Name</h6>
+                            <input class="lastname" type="text" name="last_name">
+                        </div>
+
+                    </div>
+
+
+
+
+                    <!---------------------------------User Form 2nd Row----------------------------------------------------------------------->
+                    <div class="row_box_licensenumber">
+
+                        <div class="col span-1-of-3 box_licensenumber">
+                            <h6 class="LicenseNumber">License Number</h6>
+                            <input class="licensenumber" type="text" name="license_number">
+                        </div>
+                        <div class="col span-1-of-3 box_licensenumber ">
+                            <h6 class="DOB">DOB</h6>
+                            <input class="dob" type="date" name="dob_name">
+                        </div>
+                        <div class="col span-1-of-3 box_licensenumber ">
+                            <h6 class="ExpireDate">Expire Date</h6>
+                            <input class="expirydate" type="date" name="expiry_date">
+                        </div>
+                    </div>
+
+
+
+                    <!--------------------------------------------------------------------------------------------------------------------------->
+                    <div class="div">
+                        <h6 class="Address">Address</h6>
+                        <input class="address" type="text" name="addresss">
+                    </div>
+                    <!---------------------------------------------------------------------------------------------------------------------->
+                    <div class="row_city">
+
+                        <div class="col span-1-of-3 box_City ">
+                            <h6 class="State">State</h6>
+                            <input class="state" type="text" name="state_name">
+                        </div>
+
+                        <div class="col span-1-of-3 box_City ">
+                            <h6 class="City">City</h6>
+                            <input class="city" type="text" name="city_name">
+                        </div>
+
+                        <div class="col span-1-of-3 box_City ">
+                            <h6 class="ZipCode">Zip Code</h6>
+                            <input class="zipcode" type="text" name="zip_code">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!------------------------------------------------------------------------------------------------------------------------------------->
+            </div>
+            <!--------------------------------------------------------------------------------------------------------------------->
+            <div class="div_BlueNote2"><text>The system detedted peronal or address information. Please carefully review the information identified and make any neccessary changes before proceeding</text></div>
+            
+            
+ <div class="div_RedNote"><text>Note - Back Barcode Required: The back side of your driver's license has not been uploaded.  Please upload a clear image now.  If you don't have one, just click the "Use Mobile Phone" so that you can use your mobile phone to capture it.</text></div>
+            
+
+
+        </section>
+    </section>
+</body></html>

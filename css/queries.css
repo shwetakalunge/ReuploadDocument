@@ -1,0 +1,27 @@
+@media only screen and (max-width:1200px){
+   
+    .div_Images {
+    width: 30%;
+    margin: auto;
+    display: inline-flex;
+     padding: 0px 10px 0px 05px;
+       
+    }
+.row_box,
+.row_box_licensenumber,
+.row_city {
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+
+}
+    .box_image1,
+    .box_image2 {
+    display: block;
+    border: 1px solid #e5d9d9;
+    height: 050px;
+    overflow: scroll;
+    text-align: center;
+    padding: 12px 010px 50px 10px;
+}
+}
